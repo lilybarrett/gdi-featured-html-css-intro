@@ -13,7 +13,7 @@ This beginner course will guide you through the basics of HTML and CSS. By the e
 No previous experience is required.
 
 ### Tech requirements:
- - CodePen
+ - A free [CodePen](https://codepen.io/) account
 
 ## Classes
 ### Class 1
