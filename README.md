@@ -1,5 +1,5 @@
 # Intro to HTML/CSS
-Slides and materials were adapted from Girl Develop It's Intro to HTML/CSS curriculum.
+Slides and materials were adapted from Girl Develop It's [Intro to HTML/CSS curriculum](http://girldevelopit.github.io/gdi-featured-html-css-intro//). The updated curriculum is hosted at https://lilybarrett.github.io/gdi-featured-html-css-intro/#/.
 
 ## Course description
 This is a 2-part, 2-hour course.
