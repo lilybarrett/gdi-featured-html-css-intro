@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
 
   <head>
@@ -6,7 +6,7 @@
 
     <title>Class 1 ~ HTML/CSS ~ Girl Develop It</title>
 
-    <meta name="description" content="This is curriculum for the GDI RDU intro to web series. It was developed from the official Girl Develop It Core HTML/CSS curriculum">
+    <meta name="description" content="This is curriculum for an optional Intro to HTML/CSS course for non-developer staff at Education First/Go Ahead Tours. It was developed from the official Girl Develop It Core HTML/CSS curriculum">
     <meta name="author" content="Girl Develop It">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,38 +49,23 @@
       <!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
     <section>
-      <img src="img/circle-gdi-logo.png" alt="GDI Logo" class="noborder">
       <h1>Intro to HTML/CSS</h1>
-      <h2>Class 1</h2>
+      <h2>Day 1</h2>
     </section>
 
     <!-- Welcome-->
-    <section class="hide-pdf">
-      <h3>Welcome!</h3>
-      <div class = "left-align">
-      <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
-      <p class ="green">Some "rules"</p>
-      <ul>
-        <li>We are here for you!</li>
-        <li>Every question is important</li>
-        <li>Help each other</li>
-        <li>Have fun</li>
-      </ul>
-      </div>
-    </section>
-
     <section>
       <h3>Welcome!</h3>
       <div class = "left-align">
-      <p>Tell us about yourself.</p>
-      <ul>
-        <li>Who are you?</li>
-        <li>What do you hope to get out of the class?</li>
-        <li>What is your favorite or dream vacation destination?</li>
-      </ul>
+        <p>A bit about me:</p>
+        <ul>
+          <li>Boston native</li>
+          <li>English-major-turned-software-developer</li>
+          <li>Former web dev bootcamp instructor</li>
+          <li>Girl Develop It Boston leadership team member</li>
+        </ul>
       </div>
     </section>
-
 
     <!-- What is HTML?-->
     <section>
@@ -93,28 +78,6 @@
       <h3>What is HTML?</h3>
       <p>If you 'view the source', you see this</p>
       <img src = "img/homepage-html.png" alt="Screenshot of the Girl Develop It page source code">
-    </section>
-
-    <!-- History of HTML-->
-    <section>
-      <h3>History of HTML</h3>
-      <ul>
-        <li>Invented by Tim Berners-Lee</li>
-        <li>Created "hypertext" to share scientific papers</li>
-        <li>First web page August 6, 1991</li>
-        <li>Standardized by w3 Consortium (pack of super nerds)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>History of HTML</h3>
-      <ul>
-        <li><strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
-        <li>Early 90s</li>
-        <li>HTML 4 in 1997</li>
-        <li>XHTML in 2000</li>
-        <li>HTML 5 in 2014</li>
-      </ul>
     </section>
 
     <!-- Terms-->
@@ -143,24 +106,14 @@
     <section>
       <h3>Tools</h3>
       <ul>
-        <li><strong>Browser</strong><br />
-        Chrome<br />
-        Firefox</li>
-        <li><strong>Development Toolkit</strong><br />
-        Chrome - Inspector<br />
-        Firefox - Firebug</li>
-        <li><strong>Text Editor</strong><br />
-        <a href="https://atom.io/" target="_blank">Atom</a> - Windows, Mac<br />
-        <a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - Windows<br />
-        <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a> - Windows, Mac, Linux<br />
-        <a href="http://www.barebones.com/products/textwrangler/TextWrangler" target="_blank">TextWrangler</a> - Mac</li>
+        <li><strong><a href="https://codepen.io/" target="_blank">CodePen</a></strong><br />Allows you to create a free account, write code in an interactive environment, and view your results in a virtual browser
       </ul>
     </section>
 
     <!-- Folder Structure -->
     <section>
       <h3>Get Started: Folder Structure</h3>
-      <p>All the files for your site should be stored within the same folder.</p>
+      <p>All the files for your site should be stored within the same folder/directory.</p>
 
       <div class="halfblock">
       <p class="left-align"><strong>This includes:</strong></p>
@@ -168,7 +121,6 @@
         <li>HTML Files</li>
         <li>CSS Files</li>
         <li>Images</li>
-        <li>Script files</li>
         <li>Anything else that will appear on your site</li>
       </ul>
       <p class="left-align" style="margin-top: .5em;"><small>Note: File names should not include spaces or special characters. File names ARE case sensitive.</small></p>
@@ -186,7 +138,7 @@
     <section>
       <h3>Final project</h3>
       <img src="img/sample-page.png" alt="Screenshot of a sample page"/>
-      <p>By the end of the class, you will have built a simple site using HTML and CSS on a topic of your choice. <a href="sample-code/final/index.html" target="_blank">Here is one about rock climbing.</a>
+      <p>By the end of the second session, you will have built a simple site using HTML and CSS on a topic of your choice. <a href="sample-code/final/index.html" target="_blank">Here is one about rock climbing.</a>
     </section>
 
     <section>
@@ -227,12 +179,9 @@
           <ul>
             <li>Marks the beginning &amp; end of an element</li>
             <li>Opening tag and Closing Tag</li>
-            <li>Tags contain characters that indicate the tag's purpose
+            <li>Tags contain characters that indicate the tag's purpose</li>
 <pre><code class ="html">&lt;tagname&gt;Stuff in the middle&lt;/tagname&gt;</code></pre>
-            </li>
-            <li>
 <pre><code class ="html">&lt;p&gt; This is a sample paragraph.&lt;/p&gt;</code></pre>
-            </li>
           </ul>
         </li>
       </ul>
@@ -256,36 +205,9 @@
         <li><strong>Stand Alone Element</strong>
           <ul>
             <li>An element that cannot contain anything else</li>
-            <li>
 <pre><code class = "html">&lt;br/&gt;
 &lt;img/&gt;
 </code></pre>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Anatomy of an HTML element</h3>
-      <ul>
-        <li><strong>Attribute</strong>
-          <ul>
-            <li>Provides additional information about the HTML element</li>
-            <li>Class, ID, language, style, identity, source</li>
-            <li>Placed inside an opening tag, before the right angle bracket.</li>
-          </ul>
-        </li>
-        <li><strong>Value</strong>
-          <ul>
-            <li>Value is the value assigned to a given attribute.</li>
-            <li>Values must be contained inside quotation marks.</li>
-            <li>
-<pre><code class ="html">&lt;div id="copyright"&gt;&copy;Girl Develop It logo 2016&lt;/div&gt;
-&lt;img src="my_picture.jpg" /&gt;
-&lt;a href="http://girldevelopit.com"&gt;Girl Develop It&lt;/a&gt;
-</code></pre>
-            </li>
           </ul>
         </li>
       </ul>
@@ -345,6 +267,19 @@ www.w3.org/TR/html4/loose.dtd"&gt;
       <h3>Let's develop it!</h3>
       <p>Let's get our web page set up with a doctype, head, title and body.</p>
       <p>Later we'll add some content.</p>
+    </section>
+
+    <!-- Steps -->
+    <section>
+      <h3>Steps</h3>
+      <ul>
+          <li>Log into CodePen</li>
+          <li>Click <strong>Create --> New Project</strong> at the top right-hand corner</li>
+          <li>Select <strong>New Directory</strong> and name it <strong>[your_name]-site</strong></li>
+          <li>Double-click on the directory and then select <strong>New File.</strong> Name it <strong>index.html</strong>
+          <li>You'll see a <strong>skeleton HTML file</strong> with some helpful advice! Start typing to add your own HTML code.</li>
+          <li>When you've added a title and body, press <strong>"Save All and Run"</strong> to view your web page!</li>
+      </ul>
     </section>
 
     <!-- Nesting-->
@@ -446,16 +381,15 @@ www.w3.org/TR/html4/loose.dtd"&gt;
     <section>
       <h3>Formatted text</h3>
       <div>
-        <div class="halfblock">
+        <div>
 <pre><code class="html">&lt;p&gt;
 Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;important&lt;/strong&gt; text.
 &lt;/p&gt;
 </code></pre>
         </div>
-        <div class="halfblock">
+        <div>
           <p>Here is a paragraph with <em>Emphasized</em> text and <strong>Important</strong> text.</p>
         </div>
-        <p class="clear"><small>* Notice: em and strong are meant to indicate meaning through style. If you want to have italicized for appearance and not to communicate meaning, you should use CSS.</small></p>
       </div>
     </section>
 
@@ -463,8 +397,8 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
     <section >
       <h3>Let's Develop it!</h3>
       <p class="left-align">Let's add some content to our site!</p>
-      <p class="left-align">Add one of each level of heading with 1-2 short paragraphs of text below each heading. </p>
-      <p class="left-align">Use &lt;strong&gt; and &lt;em&gt; within a few paragraphs.</p>
+      <p class="left-align">Add a <strong>header</strong> with 1 short <strong>paragraph</strong> of text below. </p>
+      <p class="left-align">Use <srong>&lt;strong&gt;</strong> and <strong>&lt;em&gt;</strong> within the paragraph.</p>
     </section>
 
     <!-- Links-->
@@ -495,31 +429,15 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
       <p><small>Adding <strong>mailto:</strong> directly before the email address means the link will open in the default email program.</small></p>
     </section>
 
-    <!-- relative & absolute links -->
-    <section>
-      <h3>Relative vs. Absolute paths for links &amp; images</h3>
-      <ul>
-        <li><strong>Relative</strong><br />
-        Relative paths change depending upon the page the link is on.
-        <ul>
-          <li><small>Links within the same directory need no path information. <code>"filename.jpg"</code></small></li>
-          <li><small>Subdirectories are listed without preceding slashes. <code>"img/filename.jpg"</code></small></li>
-        </ul>
-        </li>
-        <li><strong>Absolute</strong><br />
-        <ul>
-          <li>Absolute paths refer to a specific location of a file, including the domain. <small><code>"http://www.girldevelopit.com/chapters/detroit"</code></small></li>
-          <li>Typically used when pointing to a link that is not within your own domain.</li>
-        </ul>
-        </li>
-      </ul>
-    </section>
-
     <!-- Lets develop it-->
     <section>
       <h3>Let's Develop It</h3>
       <p>Let's add links to our site!</p>
-      <p>Add links that open in the same window, a new window and link to an e-mail address.</p>
+      <ul>
+        <li>Add a header with the text <strong>Links</strong></li>
+        <li>Below it, add a link that opens in a new window</li>
+        <li>Add another link to an e-mail address</li>
+      </ul>
     </section>
 
     <!-- Self-closing elements-->
@@ -538,36 +456,11 @@ alt="Girl Develop It logo"/&gt;
       <p><small>* Notice: This tag is our first example of a stand-alone or "self-closing" element.</small></p>
     </section>
 
-    <!-- Line Break-->
-    <section>
-    <h3>Element: Line Break</h3>
-      <div>
-        <div class="halfblock">
-<pre><code class="html">&lt;p&gt;
-Imagine there's no Heaven &lt;br/&gt;
-It's easy if you try &lt;br/&gt;
-No hell below us  &lt;br/&gt;
-Above us only sky
-&lt;/p&gt;
-</code></pre>
-        </div>
-        <div class="halfblock">
-          <p>
-          Imagine there's no Heaven <br/>
-          It's easy if you try <br/>
-          No hell below us  <br/>
-          Above us only sky
-          </p>
-        </div>
-        <div class ="clear"></div>
-      </div>
-    </section>
-
     <!-- Develop it! -->
     <section>
       <h3>Let's Develop It!</h3>
-      <p>Let's add some images and line breaks to our page.</p>
-      <p>We can even turn our images into links.</p>
+      <p>Let's find an image on Google and add it to our page.</p>
+      <p><strong>Fun fact:</strong> We can even turn our image into a link...Give it a try if you have time!</p>
     </section>
 
     <!-- Lists-->
@@ -592,6 +485,7 @@ Above us only sky
           <li>List Item</li>
           <li>Another List Item</li>
         </ul>
+        <br></br>
         <p>Ordered list (sequence)</p>
         <ol>
           <li>List Item</li>
@@ -613,8 +507,13 @@ Above us only sky
     <!-- Develop it!-->
     <section>
       <h3>Let's Develop it!</h3>
-      <p>Let's add one of each ordered and unordered lists to our page.</p>
-      <p>We can make a list of links or even a list of images!</p>
+      <ul>
+        <li>Add an ordered list (at least 3 items) to your page</li>
+        <li>Add an unordered list (at least 3 items) to your page</li>
+      </ul>
+      <br>
+      </br>
+      <p><strong>Fun fact:</strong>We can make a list of links or even a list of images!</p>
     </section>
 
     <!--Comments-->
@@ -623,7 +522,7 @@ Above us only sky
       <p>You can add comments to your code that will not be seen by the browser, but only visible when viewing the code.</p>
 <pre><code class="html">&lt;!-- Comment goes here --&gt;
 </code></pre>
-    <p><small>Comments can be used to organize your code into sections so you (or someone else) can easily understand your code. It can also be used to 'comment out' large chunks of code to hide it from the browser.</small></p>
+    <p><small>Comments can be used to organize your code into sections so you (or someone else) can easily understand your code. It can also be used to temporarily 'comment out' large chunks of code to hide it from the browser.</small></p>
 <pre><code class="html">&lt;!-- Beginning of header --&gt;
 &lt;div id="header"&gt;Header Content &lt;/div&gt;
 &lt;!-- End of header --&gt;
@@ -635,67 +534,6 @@ Above us only sky
 &lt;/ol>
 -->
 </code></pre>
-    </section>
-
-    <!--Tables-->
-    <section>
-      <h3>Tables</h3>
-      <p>Tables are a way to represent complex information in a grid format.</p>
-      <p>Tables are made up of rows and columns.</p>
-      <div>
-        <div class="halfblock">
-<pre><code class="html">&lt;table&gt;
-&lt;tr&gt;
-&lt;th&gt;Head&lt;/th&gt;
-&lt;th&gt;Head&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Data&lt;/td&gt;
-&lt;td&gt;Data&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-</code></pre>
-        </div>
-        <div class="halfblock">
-          <table style="border: 1px solid">
-            <tr>
-              <th style="border: 1px solid">Head</th>
-              <th style="border: 1px solid">Head</th>
-            </tr>
-            <tr>
-              <td style="border: 1px solid">Data</td>
-              <td style="border: 1px solid">Data</td>
-            </tr>
-          </table>
-        </div>
-        <div class ="clear"></div>
-      </div>
-    </section>
-
-    <!-- Table Examples -->
-    <section>
-      <h3>Tables: Examples</h3>
-      <p>Tables can be styled with CSS to add zebra striping or to highlight important rows/columns.</p>
-      <img src="img/example-tables.png" alt="Example of tables" />
-    </section>
-
-    <!-- Character codes-->
-    <section>
-      <h3>Character codes</h3>
-      <p>There are character codes for many different characters in many different languages</p>
-      <div class="halfblock">
-        <ul>
-          <li>Delta: &amp;delta; &delta;</li>
-          <li>Copyright symbol: &amp;copy; &copy;</li>
-          <li>Grave: &amp;grave; &grave;</li>
-          <li>An grave a: &amp;agrave; &agrave;</li>
-          <li>A full list is available at <a href="http://htmlandcssbook.com/extras/html-escape-codes/" target="_blank">htmlandcssbook.com</a></li>
-        </ul>
-      </div>
-      <div class="halfblock">
-        <img src="img/example-characters.png" alt="Example of Characters"/>
-      </div>
-      <div class ="clear"></div>
     </section>
 
     <section>
