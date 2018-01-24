@@ -5,7 +5,7 @@
 
     <title>Class 2 ~ HTML/CSS ~ Girl Develop It</title>
 
-    <meta name="description" content="This is curriculum for the GDI RDU intro to web series. It was developed from the official Girl Develop It Core HTML/CSS curriculum">
+    <meta name="description" content="This is curriculum for an optional Intro to HTML/CSS course for non-developer staff at Education First/Go Ahead Tours. It was developed from the official Girl Develop It Core HTML/CSS curriculum">
     <meta name="author" content="Girl Develop It">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -46,11 +46,10 @@
 
     <div class="reveal">
       <div class="slides">
-          <section>
-            <img src="img/circle-gdi-logo.png" alt="GDI Logo" class="noborder">
-            <h1>Intro to HTML/CSS</h1>
-            <h2>Class 2</h2>
-          </section>
+        <section>
+          <h1>Intro to HTML/CSS</h1>
+          <h2>Day 2</h2>
+        </section>
 
           <!-- Quiz 1-->
           <section>
@@ -148,7 +147,7 @@
             <h3>Connecting CSS to HTML: Inline</h3>
 <pre><code class = "html">&lt;p style="color:red"&gt;Some text.&lt;/p&gt;
 </code></pre>
-            <p>Uses the HTML attribute style.</p>
+            <p>Uses the HTML attribute <strong>style.</strong></p>
             <p>Difficult to use in large projects</p>
             <p>Not preferred.</p>
           </section>
@@ -192,7 +191,7 @@
               <li>Log into CodePen and find your project from last week. In the same folder you used last week, create a new file called <strong>style.css</strong></li>
               <li>Add a link to the file in the <strong>head</strong> of your HTML file</li>
               <pre>link rel="stylesheet" type="text/css" href="style.css"</pre>
-              <li>Add the CSS rule below to the CSS file:</li>
+              <li>As a test, add the CSS rule below to the CSS file:</li>
             </ul>
 <pre><code class = "css">body {
   background-color: blue;
@@ -273,6 +272,7 @@
   color: rgb(255, 0, 0);
 }
 </code></pre>
+          <p class="left-align" style="margin-top: .5em;"><small>*Note: Normally, you will <em>not</em> see the color property repeated like it is here! This is meant only to give you examples of the different ways you can reference colors!</small></p>
           </section>
 
           <!-- Background color-->
@@ -285,15 +285,15 @@
   background-color: rgb(0,0,0);
 }
 </code></pre>
+          <p class="left-align" style="margin-top: .5em;"><small>*Note: Normally, you will <em>not</em> see the background-color property repeated like it is here! This is meant only to give you examples of the different ways you can reference colors!</small></p>
           </section>
 
           <!-- Exercise-->
           <section>
             <h3>Let's develop it</h3>
             <ul>
-              <li>Add some rules to your css file</li>
-              <li>Change the font color and background color of different types of elements</li>
-              <li>Try specifically changing the color of your links, paragraphs, and lists</li>
+              <li>Change the font color and background color of your site.</li>
+              <li>If you have time, try changing the color of a specific paragraph, link, or list!</li>
             </ul>
           </section>
 
@@ -317,6 +317,7 @@
   font-family: "Arial", sans-serif;
 }
 </code></pre>
+            <p class="left-align" style="margin-top: .5em;"><small>*Note: Normally, you will <em>not</em> see the font-family property repeated like it is here! This is meant only to give you examples of the different ways you can reference fonts!</small></p>
             <p>We can reference font families in different ways:<p>
             <ul>
               <li>Specific font name</li>
@@ -335,10 +336,11 @@
   font-size: 100%;
 }
 </code></pre>
+            <p class="left-align" style="margin-top: .5em;"><small>*Note: Normally, you will <em>not</em> see the font-size property repeated like it is here! This is meant only to give you examples of the different ways you can reference font-sizes!</small></p>
             <p>Commonly used units for font-size:</p>
             <ul>
               <li>Pixels</li>
-              <li>"em"</li>
+              <li>"em"s (not to be confused with HTML's <em>em</em> element!)</li>
               <li>Percentage</li>
             </ul>
           </section>
@@ -364,9 +366,19 @@
           <section>
             <h3>Let's develop it</h3>
             <ul>
-              <li>Change the fonts of your page</li>
-              <li>Try changing the font sizes and styles for different elements</li>
+              <li>Change the font-family and font-size for the text your page</li>
+              <li>Try changing the font size and style specifically for the largest header on your page</li>
               <li>Fun source of fonts: <strong>Google Fonts!</strong></li>
+            </ul>
+          </section>
+
+          <!-- Exercise-->
+          <section>
+            <h3>How To: Google Fonts</h3>
+            <ul>
+              <li>Go to https://fonts.google.com/</li>
+              <li>Click the plus icon for a font you're interested in</li>
+              <li>You will see a pop-up box with instructions for integrating the font into your website. Raise your hand if you have questions!</strong></li>
             </ul>
           </section>
 
@@ -382,7 +394,7 @@
             <h3>IDs vs. Classes</h3>
             <p><strong>ID</strong> -- Should only apply to one element on a webpage, i.e., a webpage only has one footer.<br />
             The "#" is how you tell CSS "this is an id."</p>
-            <p><strong>Class</strong> -- Lots of elements can have the same class, i.e., There can be many warnings on one webpage.<br />
+            <p><strong>Class</strong> -- Lots of elements can have the same class, i.e., there can be many titles on one webpage.<br />
             The "." is how you tell CSS "this is a class name."</p>
           </section>
           <section>
@@ -416,8 +428,9 @@
           <section>
             <h3>Let's develop it</h3>
             <ul>
-              <li>Add an ID and class to a your HTML</li>
-              <li>Add CSS rules to target these elements</li>
+              <li>Add an ID to the largest header on your page</li>
+              <li>Add a class to two other elements that should have the same styling</li>
+              <li>Add CSS rules to target the class and the ID</li>
             </ul>
           </section>
 
@@ -437,8 +450,8 @@
 }
 </code></pre>
 <pre><code class = "html">&lt;p&gt;Paragraph&lt;/p&gt;
-&lt;p class ="red"&gt;Paragraph&lt;/p&gt;
-&lt;p class = "red" id ="special"&gt;Paragraph&lt;/p&gt;
+&lt;p class = "red"&gt;Paragraph&lt;/p&gt;
+&lt;p class = "red" id = "special"&gt;Paragraph&lt;/p&gt;
 </code></pre>
           </section>
 
